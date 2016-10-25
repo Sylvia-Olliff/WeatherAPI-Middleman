@@ -1,0 +1,24 @@
+{
+	"name": "WeatherAPI-Middleman",
+	"version": "0.0.10",
+	"description": "Middleman API for Open WeatherAPI to prevent high request volume for free account.",
+	"author": "Joe Olliff joeolliff@gmail.com",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/TITANJC/WeatherAPI-Middleman"
+	},
+	"dependencies": {
+		"async": "latest",
+		"ejs": "latest",
+		"morgan": "latest",
+		"winston": "latest",
+		"express": "4.14.x",
+		"body-parser": "latest",
+		"cookie-parser": "latest",
+		"multer": "latest"
+	},
+	"license": "MIT"
+}
